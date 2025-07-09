@@ -87,5 +87,6 @@ if st.button("경주 시작 (30프레임)"):
     
     st.subheader("최종 순위")
     for rank, horse in ranks:
+        st.write(f"{rank}위: {horse}")
 
 
